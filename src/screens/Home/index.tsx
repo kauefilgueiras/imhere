@@ -1,6 +1,6 @@
 import { Text, TextInput, View, TouchableOpacity, FlatList, Alert } from "react-native";
 import { styles } from "./styles";
-import { Participant } from "./components/Participant";
+import { Participant } from "../../components/Participant/index";
 import { useState } from "react";
 
 export default function Home() {
